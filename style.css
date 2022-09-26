@@ -229,18 +229,83 @@ h3 {
   font-weight: 600;
 }
 
+
+
+
+
+
+
+
+
+
+
+.d-flex {
+	display: flex;
+}
+
+.align-end {
+	align-items: flex-end;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-space-between {
+	justify-content: space-between;
+}
+
+.white--text {
+	color: rgb(203, 200, 200);
+}
+
 .footer {
-  margin-top: 40px;
+	background-color: #424242;
+	padding: 30px 0;
+	margin-top: 60px;
 }
 
-.footer p {
-  font-size: 1.2rem;
+.footer__header {
+	margin-bottom: 30px;
 }
 
-.footer__copyright {
-  color: #9f9f9f;
-  font-size: 1.6rem;
-  font-weight: 600;
+.footer__list {
+	list-style: none;
+	display: flex;
+}
+
+.footer__list-item {
+	margin: 0 12px;
+}
+
+.footer__list-item a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+}
+
+.footer__copyright,
+.footer__disclaimer {
+	font-size: 1.5rem;
+}
+
+.terms {
+	padding: 60px 0;
+}
+
+.terms ul li {
+	font-size: 1.6rem;
+}
+
+.order__bottles-img,
+.order__get-started {
+	max-width: 450px;
+	width: 100%;
 }
 
 /* Tablets */
