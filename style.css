@@ -178,12 +178,12 @@ h3 {
 
 .order__bottles img {
   width: 100%;
-  max-width: 800px;
+  max-width: 300px;
   transition: ease 0.3s all;
 }
 
 .order__bottles img:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 .order__title {
