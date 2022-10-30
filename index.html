@@ -29,6 +29,14 @@
   <link rel="stylesheet" href="style.css" />
  </head>
  <body>
+	<style>
+		#order-now-btn {
+			transition: transform .2s;
+		}
+		#order-now-btn:hover {
+			transform: scale(1.05);
+		}
+	</style>
   <nav class="navbar">
    <div class="navbar-container container">
     <span class="navbar__logo">BioPls Pro™</span>
@@ -55,7 +63,7 @@
       <li class="hero__list-item">100% customer Satisfaction</li>
      </ul>
      <a href="/order-now"
-      ><button class="btn hero__btn">Order Now</button></a
+      ><button class="btn hero__btn" id="order-now-btn">Order Now</button></a
      >
     </div>
    </div>
@@ -158,19 +166,19 @@
     <ul class="ingredients__list">
      <li class="ingredients__list-item">
       <p>
-       <b>Garcinia Cambogia</b> - It suppresses the appetite and reduces the body's capacity to generate fat. It also help you to keep blood sugar and cholesterol levels in check, too.
+       <b>Garcinia Cambogia</b> - It is a tropical fruit also known as the Malabar tamarind. It is scientifically proven that it brakes on your appetite and blocks your body's ability to make fat. It also help to keep blood sugar and cholesterol levels in check, too. 
       </p>
       <p>
        <b>Conjugated linoleic acid</b> - CLA reduces body fat in animals by increasing the amounts of specific enzymes and proteins that are involved in fat breakdown 
       </p>
       <p>
-       <b>Coffee extract</b> - Coffee extract comes from coffee beans that haven't been roasted. They contain compounds known as chlorogenic acids. These have antioxidant effects, help you lose weight, and help lower blood pressure.
+       <b>Coffee extract</b> - Coffee extract contain compounds known as chlorogenic acids that can be effective for weight loss and blood sugar regulation. It improve health, such as blood pressure and cholesterol, and provide antioxidants.
       </p>
       <p>
        <b>Lactobacillus Acidophilus</b> - L. acidophilus is a probotic bacteria that’s normally found in your intestines and crucial to health. Due to its ability to produce lactic acid and interact with your immune system, it may help prevent and treat symptoms of various diseases.
       </p>
       <p>
-       <b>Green Tea Leaf Extract</b> - Many studies have shown that green green tea extract can promote weight loss, disease prevention, and blood sugar regulation. It also keep your skin healthy, clear toxins from liver, reduce cholesterol, regulate blood sugar level, and improve brain health.
+       <b>Green Tea Leaf Extract</b> - Many studies have shown that green tea extract may help to weight loss by increasing the number of calories your body burns through thermogenesis. It also keep your skin healthy, clear toxins from liver, reduce cholesterol, regulate blood sugar level, and improve brain health.
       </p>
       <p>
        <b>Resveratrol</b> - Resveratrol is a type of natural phenol and phytoalexin produced by several plants. It helps in burning visceral fat cells that get accumulated in the body over time. It may speed up the weight loss in obese individuals. 
@@ -187,8 +195,8 @@
    <div class="container">
     <h2 class="subtitle">Benefits of Using BioPls Pro</h2>
     <p>
-     BioPls Pro is not just a weight reduction supplement as it works on
-     numerous aspects of the body to improve your overall health and boost
+     BioPls Pro is not just a weight loss supplement, it works on
+     several aspects of the body to improve your overall health and boost
      well-being. Some of its benefits are as follows:
     </p>
 
@@ -198,12 +206,6 @@
        BioPls Slim Pro works wonders for burning fat even while you are
        sleeping. You don't need to necessarily follow calorie-deficit diet or
        indulge in gymming to experience its weight loss benefits.
-      </p>
-     </li>
-     <li>
-      <p>
-       It improves your heart health and also enhances the overall functioning
-       of the liver to increase the metabolism of your body.
       </p>
      </li>
      <li>
@@ -223,6 +225,12 @@
       <p>
        It suppresses unwanted cravings and appetite to reduce hunger, while
        deriving energy from the burning of fat cells in the body.
+      </p>
+     </li>
+		 <li>
+      <p>
+       It improves your heart health and also enhances the overall functioning
+       of the liver to increase the metabolism of your body.
       </p>
      </li>
     </ul>
@@ -323,7 +331,7 @@
      </ul>
     </div>
 
-    <p class="footer__disclaimer text-center white--text">FDA Compilance</p>
+    <p class="footer__disclaimer text-center white--text">FDA Compliance</p>
 
     <p class="footer__disclaimer text-center white--text">
      Please note that the information we provide is not intended to replace
